@@ -1,0 +1,39 @@
+.main {
+    font-family: Avenir, helvetica, arial, sans-serif;
+    display: flex;
+    height: 94vh;
+    background-color: #565A69; // 565A69
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+
+    .quote {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 70px;
+        color: #E6E6E6;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-size: 30px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .cube {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
